@@ -31,7 +31,7 @@ fun App() {
                 .clip(shape = CircleShape)
                 .fillMaxWidth(),
                 onClick = { showContent = !showContent }) {
-                Text("Click me!")
+                Text("See the magic!")
             }
             AnimatedVisibility(showContent) {
                 val greeting = remember { Greeting().greet() }
